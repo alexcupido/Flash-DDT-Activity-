@@ -6,7 +6,7 @@ const cases = airtime as AirtimeCase[];
 
 test.describe("Airtime transfer — data-driven", () => {
     test.beforeEach(async ({page}) => {
-        await page.goto('http://localhost:3001/airtime');
+        await page.goto('/airtime');
     });
 
  for (const tc of cases) {
